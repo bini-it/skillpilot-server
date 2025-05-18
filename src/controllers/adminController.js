@@ -1,4 +1,4 @@
-import ChatSession from '../models/ChatSessionModel.js';
+import ChatSession from '../models/chatSessionModel.js';
 import QuizAttempt from '../models/quizAttemptModel.js';
 import Quiz from '../models/quizModel.js';
 import Roadmap from '../models/roadmapModel.js';
