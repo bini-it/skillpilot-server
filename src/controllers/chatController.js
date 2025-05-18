@@ -1,4 +1,4 @@
-import ChatSession from '../models/ChatSessionModel.js';
+import ChatSession from '../models/chatSessionModel.js';
 import jwt from 'jsonwebtoken';
 
 const establishChatContext = async (req, res) => {
