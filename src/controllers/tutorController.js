@@ -1,6 +1,6 @@
 import { CohereClientV2 } from 'cohere-ai';
 import { generateQuestionForTutor } from '../utils/tutor/generateQuestionForTutor.js';
-import ChatSession from '../models/ChatSessionModel.js';
+import ChatSession from '../models/chatSessionModel.js';
 import mongoose from 'mongoose';
 
 const client = new CohereClientV2({ token: process.env.CO_API_KEY });
