@@ -48,6 +48,9 @@ app.use('/api/quiz', quizRoutes);
 app.use('/api/notifications', notificationRoutes);
 app.use('/api/ai/tutor', tutorRoutes);
 app.use('/api/chat', chatRoutes);
+app.get('/api/ping', (req, res) => {
+  res.send('pong');
+});
 io.on('connection', (socket) => {
   console.log('User connected ', socket.id);
   socket.on('join', (userId) => {
