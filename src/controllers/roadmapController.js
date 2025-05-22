@@ -6,7 +6,7 @@ import Progress from '../models/progressModel.js';
 import buildRoadmapResponse from '../utils/roadmap/buildRoadmapResponse.js';
 import QuizAttempt from '../models/quizAttemptModel.js';
 import Notification from '../models/notificationModel.js';
-import ChatSession from '../models/ChatSessionModel.js';
+import ChatSession from '../models/chatSessionModel.js';
 
 const getRoadmap = async (req, res) => {
   const { topic } = req.body;
